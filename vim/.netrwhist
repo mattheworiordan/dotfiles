@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/Users/matthew/.rvm/gems/ruby-1.8.7-p302/gems/cucumber-screenshot-0.3.4'
+let g:netrw_dirhist_2='/Users/matthew/.rvm/gems/ruby-1.8.7-p302/gems/bundler-1.0.9'
+let g:netrw_dirhist_3='/Users/matthew/.rvm/gems/ruby-1.8.7-p302/gems/capybara-1.1.1'
+let g:netrw_dirhist_4='/Users/matthew/.rvm/gems/ruby-1.8.7-p302/gems/capybara-webkit-0.7.2'
+let g:netrw_dirhist_5='/Users/matthew/.rvm/gems/ruby-1.8.7-p302/gems/capybara-1.1.1'
+let g:netrw_dirhist_6='/Users/matthew/.rvm/gems/ruby-1.9.2-p290/gems/cucumber-rails-1.1.1'

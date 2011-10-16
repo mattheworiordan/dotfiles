@@ -63,3 +63,23 @@ setopt CORRECT CORRECT_ALL
 
 # Enable extended globbing
 setopt EXTENDED_GLOB
+
+# Matt's settings
+export PATH=/usr/local/mysql/bin:~/Projects/scripts:/Applications/android-sdk/tools:/Applications/android-sdk/platform-tools:$PATH
+
+take () { /bin/mkdir ${*} && cd ${*}; }
+
+# Setting PATH for MacPython 2.6
+# The orginal version is saved in .bash_profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/2.6/bin:${PATH}"
+export PATH
+
+# MacPorts Installer addition on 2010-09-03_at_00:04:20: adding an appropriate PATH variable for use with MacPorts.
+export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+# Finished adapting your PATH environment variable for use with MacPorts.
+
+# rvm default
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"  # This loads RVM into a shell session.
+
+# rvm-install added line:
+if [[ -s /Users/matthew/.rvm/scripts/rvm ]] ; then source /Users/matthew/.rvm/scripts/rvm ; fi
